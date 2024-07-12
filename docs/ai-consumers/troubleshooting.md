@@ -3,7 +3,7 @@
 layout: default
 keywords: intro concepts, troubleshooting, daemon, Lost the private key to your general wallet, Free call limit has been exceeded, Rate limiting, too many requests to handle”, Unexpected payment type, If the service is not available on Dapp
 comments: false
-title: Troubleshooting
+title: Troubleshooting the Daemon
 description: Common errors returned by the Daemon
 
 # Micro navigation

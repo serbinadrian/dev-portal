@@ -3,7 +3,7 @@
 layout: default
 keywords: Create an Identity, networks, Faucet
 comments: false
-title: Metamask
+title: Wallet
 description: Metamask is a browser extension for interacting with B enabled websites, such as marketplace.
 
 # extralink box

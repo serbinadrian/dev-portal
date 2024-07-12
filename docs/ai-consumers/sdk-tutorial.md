@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: Python SDK, Node.js SDK
+keywords: Python SDK, Node.js SDK, Service
 comments: false
 title: SDK Tutorial
-description: All about SDK
+description: Step-by-step tutorial about using SDK
 
 # extralink box
 extralink:

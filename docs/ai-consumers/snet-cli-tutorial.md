@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: CLI, call, service
+keywords: CLI, call, SingularityNET service, snet-cli
 comments: false
 title: Call to a SingularityNET service via CLI
 description: Making a call to a SingularityNET service
