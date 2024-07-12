@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: Registry contract, service, organization, CLI, Dapp
+keywords: Registry contract, service, organization, CLI, Dapp, Intro concepts, Introduction, Service Metadata, Tags, 
 comments: false
 title: The SingularityNET Registry
-description: The SingularityNET Registry is an ERC-165–compliant smart contract 
+description: The SingularityNET Registry is an ERC-165–compliant smart contract that stores organizations, services, and type repositories.
 
 # extralink box
 extralink:

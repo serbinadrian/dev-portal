@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: intro concepts, paying through PayPal
+keywords: intro concepts, paying through PayPal, payments, Dapp
 comments: false
 title: Integration with PayPal
 description: SingularityNET’s Decentralized AI Marketplace Integration with PayPal
