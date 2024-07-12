@@ -4,7 +4,7 @@ layout: default
 keywords: CLI, Making a call to a SingularityNET service
 comments: false
 title: The SingularityNET command line interface (CLI)
-description: The SingularityNET command line interface (CLI)
+description: The SingularityNET command line interface (CLI) is the primary tool for interacting with the platform's smart contracts, managing deployed services, and managing funds.
 
 # extralink box
 extralink:

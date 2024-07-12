@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: SDK in JAVA, SDK in Python, SDK in NodeJS
+keywords: SDK in JAVA, SDK in Python, SDK in NodeJS, Android platforms, SDK for Javascript
 comments: false
 title: SDK Introduction
-description: All about SDK
+description: All information about SDK
 
 # extralink box
 extralink:
