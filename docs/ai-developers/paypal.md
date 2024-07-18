@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: intro concepts, PayPal, service by paying, call a service
+keywords: intro concepts, paying through PayPal, service by paying, call a service,
 comments: false
 title: Integration with PayPal
 description: SingularityNET’s Decentralized AI Marketplace Integration with PayPal

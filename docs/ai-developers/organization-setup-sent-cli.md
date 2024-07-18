@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: intro concepts, Publishing, Organization on Blockchain using snet-cli, CLI, Metadata
+keywords: intro concepts, Publishing, Organization on Blockchain using snet-cli, CLI, Metadata, guideline
 comments: false
 title: Publishing Organization on Blockchain using snet-cli
-descriprion: Publishing Organization on Blockchain using snet-cli
+descriprion: Step-by-step guideline to publishing blockchain organizations using snet-cli
 
 # Micro navigation
 micro_nav: true

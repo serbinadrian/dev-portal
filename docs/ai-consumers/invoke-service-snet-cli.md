@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: call service, cli, get AGIX
+keywords: call service, cli, get AGIX, Ether
 comments: false
 title: Making a call to a SingularityNET service
-description: Making a call to a SingularityNET service
+description: Instruction to make a call to a SingularityNET service
 
 # extralink box
 extralink:

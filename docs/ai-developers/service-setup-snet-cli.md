@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: intro concepts, CLI, set up, service, daemon, Publishing
+keywords: intro concepts, CLI, set up, service, daemon, Publishing, Python, Ubuntu
 comments: false
 title: Service set up via snet-cli
-description: Service set up via snet-cli
+description: Guideline to setting up the service via snet-cli
 
 ---
 # Service set up via snet-cli

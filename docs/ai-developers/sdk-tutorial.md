@@ -3,7 +3,7 @@
 layout: default
 keywords: Node.js SDK and Python SDK
 comments: false
-title: Sdk tutorial
+title: Sdk tutorial for developers
 description: Node.js SDK and Python SDK
 
 # extralink box
@@ -19,7 +19,7 @@ dev_news: true
 # Micro navigation
 micro_nav: true
 ---
-
+КОПИЯ ai-consumers/sdk-tutorial
 ## Using the Node.js SDK
 [Click here](https://github.com/singnet/snet-code-examples/tree/master/nodejs/client)
 

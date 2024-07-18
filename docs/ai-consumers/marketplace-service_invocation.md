@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: call service, using Metamask, Marketplace Requirements, withdraw, deposit
+keywords: call service, Metamask, Marketplace Requirements, withdraw, deposit, paypal, Depositing tokens, Escrow Wallet
 comments: false
 title: Calling a Service
 description: All complexity of invoking a service is abstracted from the users.

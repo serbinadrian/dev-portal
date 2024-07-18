@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: triton onboarding
+keywords: triton onboarding, Guideline, python
 comments: false
-title: Deploying triton-based service to the SNET platform
-description: Deploying triton-based service to the SNET platform
+title: Integrating Triton-based Service
+description: Guideline for deploying service with examples of code
 
 # Micro navigation
 micro_nav: true

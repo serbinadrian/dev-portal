@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: publisher portal, organization, service, Adding members, Blockchain, Publishing
+keywords: publisher portal, organization, service, Adding members, Blockchain, Publishing, metadata
 comments: false
 title: Publisher Portal
 description: Goal is to assist the developers easily publish and manage their organizations and services

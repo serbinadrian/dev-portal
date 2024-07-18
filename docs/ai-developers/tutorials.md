@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: C++, Go, Java, Python, tutorials
+keywords: C++, Go, Java, Python, tutorials, Documentation
 comments: false
 title: Tutorials
-description: Tutorials
+description: Main tutorial page. First steps to became a consumer of SingularityNET services and links to all the programming languages.
 
 # extralink box
 extralink:

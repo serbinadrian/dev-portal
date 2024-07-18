@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: runpod onboarding, Publish the service
+keywords: runpod onboarding, Publish the service, tutorial, docker, proto file
 comments: false
 title: Runpod based AI service
-description: Runpod based AI service
+description: Step-by-step guideline to publish the service on marketplace
 
 # Micro navigation
 micro_nav: true
