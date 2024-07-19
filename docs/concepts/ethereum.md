@@ -4,7 +4,7 @@ layout: default
 keywords: intro concepts, Ethereum
 comments: false
 title: Ethereum
-description: Ethereum is an open source, public, blockchain-based distributed computing platform 
+description: What is an Ethereum?
 
 # Micro navigation
 micro_nav: true

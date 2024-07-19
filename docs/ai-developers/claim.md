@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: Claiming AGIX Tokens, 
+keywords: Claiming AGIX Tokens, Marketplace
 comments: false
-title: Claim
-description: earning AGIX tokens as people interact and purchase your service
+title: Claim AGIX
+description: The AGIX tokens thus earned are captured in the payment channel set up between the user of the service
 
 # extralink box
 extralink:

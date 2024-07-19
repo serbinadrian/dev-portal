@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: Daemon setup, Configuration, Download the latest Daemon, Key Configurations, Start Daemon
+keywords: Daemon setup, Configuration, Download the latest Daemon, Key Configurations, Start Daemon, AI service end point
 comments: false
 title: Daemon setup
 description: Daemon setup guid

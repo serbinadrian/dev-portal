@@ -4,7 +4,7 @@ layout: default
 keywords: intro concepts, paying through PayPal
 comments: false
 title: Integration with PayPal
-description: SingularityNET’s Decentralized AI Marketplace Integration with PayPal
+description: SingularityNET’s Decentralized AI Marketplace Integration with PayPal for consumers
 
 # Micro navigation
 micro_nav: true

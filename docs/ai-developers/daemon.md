@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: daemon, Supported Service Types, SSL, Authorisation and Payment, Configuration, Payment channel state
+keywords: daemon, Supported Service Types, SSL, Authorisation and Payment, Configuration, Payment channel state, etcddb cluster
 comments: false
 title: Daemon
 description: The SingularityNET daemon is the adapter that a service can use to interface with the SingularityNET platform.

@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: ipfs
+keywords: ipfs, peer-to-peer network
 comments: false
 title: Interplanetary File System 
-description: The Interplanetary File System (IPFS) is a synthesis of several new and existing innovations
+description: What is an Interplanetary File System?
        
 ---
 # Interplanetary File System 

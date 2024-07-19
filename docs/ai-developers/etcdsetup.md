@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: intro concepts, ETCD CLUSTER, Infrastructure Diagram, ETCD set up Script, Generating Certificates, Download, Install & Configuring the ETCD Cluster
+keywords: intro concepts, ETCD CLUSTER, Infrastructure Diagram, ETCD set up Script, Generating Certificates, Download, Install & Configuring the ETCD Cluster, cfssl, CA options, server certificate, client certificate
 comments: false
-title: SETTING UP ETCD CLUSTER
-description: Starting an etcd cluster normally requires each member to be familiar with other members in the cluster.
+title: ETCD setup
+description: Step-by-step guideline to start the ETCD cluster
 ---
 
 # SETTING UP ETCD CLUSTER

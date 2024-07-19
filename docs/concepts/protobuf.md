@@ -4,7 +4,7 @@ layout: default
 keywords: intro concepts, Protobuf
 comments: false
 title: Protocol Buffers
-description: is a method of data serialization
+description: What is a Protocol Buffers?
 
 # Micro navigation
 micro_nav: true

@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: intro concepts, Protocol Buffer, service,Definition, ptotobuf, publish, КОПИЯ ai-consumers/service
+keywords: intro concepts, Protocol Buffer, service,Definition, ptotobuf, publish, Service Metadata
 comments: false
 title: Service
 description: publish the service
