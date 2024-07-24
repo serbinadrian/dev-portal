@@ -1,78 +1,40 @@
 ---
-redirect_from: '/home/'
-
-# Page settings
-layout: homepage
-keywords:
-title: Welcome to the AI Dev Community
-tagline: The go-to place for all developer related content and social activities.<br>SingularityNET lets anyone create, share, and monetize AI services at scale.
-
-# Micro navigation
-micro_nav: true
-
-# Features
+layout: home
+hero:
+  name: "Name"
+  text: "Sample text"
+  tagline: Sample tagline
+  actions:
+    - theme: brand
+      text: Github
+      # link: https://github.com/trueagi-io/hyperon-experimental/
+    # - theme: alt
+    #   text: Learn
+    #   link: /docs/learn/learn
+    # - theme: alt
+    #   text: Playground
+    #   link: /docs/playground/playground
+    # - theme: alt
+    #   text: Subscribe to Updates
+    #   link: /docs/subscribe/subscribe
+     
 features:
-    - title: Overview
-      description: A primer to get you started with working with SingularityNET tools & software and the Blockchain.
-      icon: 'Tutorials_1.svg'
-      card-image: ''
-      url: '/docs/overview'
-
-    - title: Core Concepts
-      description: Learn about the core parts of the SingularityNET platform and how it works under the hood.
-      icon: 'Tutorials_2.svg'
-      material-icon: collections_bookmark
-      url: '/docs/concepts'
-
-    - title: Tutorial
-      description: Guides for how to work the platform, how to integrate SingularityNET services into your software, and even how to publish your own services!
-      icon: 'Tutorials_3.svg'
-      material-icon: import_contacts
-      url: '/tutorials'
-
-# By Tools
-tools_cards:
-    - title: SNET Contracts
-      description: 'Ethereum smart contracts that power the SingularityNet platform'
-      left_url_name: Download
-      left_url_link: https://www.npmjs.com/package/singularitynet-platform-contracts
-      right_url_name: Github
-      right_url_link: https://github.com/singnet/platform-contracts
-
-    - title: SNET Client
-      description: A command line utility to interface with the SingularityNet platform
-      left_url_name: Download
-      left_url_link: https://pypi.org/project/snet.cli/
-      right_url_name: Github
-      right_url_link: https://github.com/singnet/snet-cli
-
-    - title: Daemon
-      description: Daemon exposes an AI application as an API that is accessible through the SingularityNET platform.
-      left_url_name: Download
-      left_url_link: https://github.com/singnet/snet-daemon/releases/latest
-      right_url_name: Github
-      right_url_link: https://github.com/singnet/snet-daemon
-
-    - title: Python SDK
-      description: Python SDK to invoke AI services on the SingularityNet platform programatically
-      left_url_name: Download
-      left_url_link: https://pypi.org/project/snet.sdk/
-      right_url_name: Github
-      right_url_link: https://github.com/singnet/snet-sdk-python
-
-    - title: Java SDK
-      img: 'http://placehold.jp/80x80.png'
-      description: Java SDK to invoke AI services on Java SE and Android
-      left_url_name: Download
-      left_url_link: https://jitpack.io/#singnet/snet-sdk-java
-      right_url_name: Github
-      right_url_link: https://github.com/singnet/snet-sdk-java
-
-# Email Subscription Section
-email_subscription:
-    title: Stay up to date
-    excerpt: Be the first to know about SingularityNET developer news and get the newest tutorials, articles, and updates.
-
-# Newsletter
-dev_news: true
+  - title: Sample text
+    details: Sample details. 
+  # - title: Atomspace
+  #   details: Each MeTTa program is represented as a subgraph of an Atomspace metagraph, and operates centrally by querying and rewriting portions of Atomspaces.
+  # - title: Self-modification
+  #   details: MeTTa handles highly abstract constructs like run-time self-modifying code simply and naturally. Programs are fully self-reflective – we can read/modify the code inside the programs.
+  # - title: Gradual dependent types
+  #   details: Type system is one of the most important features in terms of application of MeTTa language. Built-in mathematical reasoning by supporting a state-of-the-art type system.
+  # - title: Neural-symbolic integration
+  #   details: MeTTa is capable to support neural-symbolic reasoning and handling uncertainties, using probabilistic logical reasoning. 
+  # - title: Inference engine
+  #   details: MeTTa is essentially nondeterministic that turns its interpreter into an inference engine. The language supports implementing different inference systems, from probabilistic programming to fuzzy logic.
+  # - title: Tool for AGI
+  #   details: With its open architecture MeTTa embraces very different AI strategies and is intended both for humans to script portions of AGI cognitive processes, and for the programming activity of AGI-related learning and reasoning algorithms themselves.
+  # - title: DSL for AI DSLs
+  #   details: MeTTa forms the ‘universal translator’ that enables a wide range of AI systems to dynamically collaborate by the creation of compatible Domain Specific Languages within one framework.
+  # - title: OpenCog Hyperon
+  #   details: MeTTa is the language of the cognitive architecture of OpenCog Hyperon. It functions as the firmware of the wildly variating components that Hyperon is made of and it is the glue that holds everything together.
 ---
