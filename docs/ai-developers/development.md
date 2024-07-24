@@ -3,8 +3,8 @@
 layout: default
 keywords: Platform Development, MPE, multiparty escrow example
 comments: false
-title: Platform Development
-description: Platform Development
+title: Documentanion for Platform Development
+description: This documentation is intended for developers who want to work on the SingularityNET platform itself.
 
 # Developer Newsletter
 dev_news: true

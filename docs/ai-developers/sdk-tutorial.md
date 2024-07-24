@@ -3,8 +3,8 @@
 layout: default
 keywords: Node.js SDK and Python SDK
 comments: false
-title: Sdk tutorial
-description: Node.js SDK and Python SDK
+title: Sdk tutorial for developers
+description: Node.js SDK and Python SDK tutorials
 
 # extralink box
 extralink:
@@ -19,7 +19,6 @@ dev_news: true
 # Micro navigation
 micro_nav: true
 ---
-
 ## Using the Node.js SDK
 [Click here](https://github.com/singnet/snet-code-examples/tree/master/nodejs/client)
 

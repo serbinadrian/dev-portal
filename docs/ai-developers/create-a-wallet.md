@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: token, wallet, cli, Metamask, different networks, Faucet
+keywords: token, wallet, cli, Metamask, different networks, Faucet, Ropsten AGIX distribution hub
 comments: false
 title: Creating ethereum identity
-description: There are many ways to create an ethereum identity.
+description: Few ways to create an ethereum identity.
 
 # extralink box
 extralink:

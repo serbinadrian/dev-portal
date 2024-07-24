@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: token, Using snet-cli, Using Metamask, different networks
+keywords: token, Using snet-cli, Using Metamask, different networks, marketplace, Mainnet Network, Ethereum Faucet, AGIX Faucet
 comments: false
 title: Ethereum identity
-description: ways to create an ethereum identity
+description: Ways to create an ethereum identity
 
 # extralink box
 extralink:

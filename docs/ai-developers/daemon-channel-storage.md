@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: Daemon channel, process
+keywords: Daemon channel, process, Etcd storage, embedded etcd cluster, Replicas to etcd nodes
 comments: false
 title: Daemon channel
 description: To fulfill a request from a client to a service, a snet-daemon needs to store and process information about the service payment. 

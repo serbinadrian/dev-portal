@@ -3,8 +3,8 @@
 layout: default
 keywords: training daemon
 comments: false
-title: Training guide
-description: Training guide
+title: Integrating training in service
+description: Step-by-step guideline for integrating training in service
 
 # Micro navigation
 micro_nav: true

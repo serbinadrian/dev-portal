@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: onboarding, setup, ETCD, Daemon, Installing SNET-cli, gRPC Service development, service, organization, payment channel
+keywords: onboarding, setup, ETCD, Daemon, Installing SNET-cli, gRPC Service development, service, organization, payment channel, mainnet, guideline, tutorial
 comments: false
-title: Setup guid 
-description: Port forwarding from domain to daemon host
+title: Mainnet onboarding
+description: Step-by-step guideline to mainnet onboarding
 
 # Micro navigation
 micro_nav: true

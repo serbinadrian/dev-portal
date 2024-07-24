@@ -1,11 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: Java
+keywords: Java, tutorial, SDK, Maven, Gradle
 comments: false
 title: SingularityNET service client in Java
-description: This tutorial explains how to create a SingularityNET service client in Java
-language
+description: This tutorial explains how to create a SingularityNET service client in Java language
 
 # extralink box
 extralink:

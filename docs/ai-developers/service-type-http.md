@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: http daemon, Scheme, api
+keywords: http daemon, Scheme, api, tutorial
 comments: false
 title: HTTP service type
-description: HTTP service type
+description: Explanation of integrating HTTP service
 
 # Micro navigation
 micro_nav: true

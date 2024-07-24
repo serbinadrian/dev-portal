@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: intro concepts, Organization, groups, members, Payment Storage, Payment Address
+keywords: intro concepts, Organization, groups, members, Payment Storage, Payment Address, owner
 comments: false
 title: Organization Setup
 description: An organization on the SingularityNet platform is a...

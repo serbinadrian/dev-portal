@@ -4,7 +4,7 @@ layout: default
 keywords: intro concepts, ETCD
 comments: false
 title: ETCD 
-description: etcd is a distributed reliable key-value store having the following properties
+description: What is an ETCD?
 
 # Micro navigation
 micro_nav: true

@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: intro concepts, Concepts and Components
+keywords: intro concepts, Concepts and Components, 
 comments: false
 title: Intro concepts
-description: SingularityNET (SNET) is an open and decentralized network of AI services made accessible through the Blockchain.
+description: Introduction in SingularityNET. Explanation of functionality SNET.
 
 # Micro navigation
 micro_nav: true

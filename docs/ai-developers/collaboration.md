@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: Collaboration
+keywords: Members, Collaborate, distribute responsibilities, organization
 comments: false
 title: Collaboration
-description: Members, Collaboration
+description: Explanation of collaboration
 
 # extralink box
 extralink:

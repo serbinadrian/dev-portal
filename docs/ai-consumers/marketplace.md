@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: Marketplace
+keywords: Marketplace, The decentralized application, DApp
 comments: false
 title: Introduction to SingularityNET Marketplace
 description: The The SingularityNET Marketplace is a decentralized application (DApp), which lists the available

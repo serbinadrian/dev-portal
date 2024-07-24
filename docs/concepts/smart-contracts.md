@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: intro concepts, Smart Contracts
+keywords: intro concepts, Smart Contracts, Blockchain, Ethereum, MPE
 comments: false
 title: Smart Contracts
-description: A Smart Contract is terms, rules and conditions of the agreement 
+description: What is a smart contract?
 
 # Micro navigation
 micro_nav: true

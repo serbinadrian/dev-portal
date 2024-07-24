@@ -3,7 +3,7 @@
 layout: default
 keywords: intro concepts, etcd, Payments, Free Call, FreeCall
 comments: false
-title: ETCD
+title: ETCD storage
 description: etcd is a distributed reliable key-value store having the following properties
 
 # Micro navigation

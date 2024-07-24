@@ -1,10 +1,10 @@
 ---
 # Page settings
 layout: default
-keywords: intro concepts, gRPC
+keywords: intro concepts, gRPC, SingulartiyNet Daemon
 comments: false
 title: gRPC
-description: gRPC is a modern open source high performance RPC framework
+description: What is a gRPC?
 
 # Micro navigation
 micro_nav: true

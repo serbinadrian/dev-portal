@@ -2,8 +2,8 @@
 # Page settings
 layout: default
 comments: false
-title: What is blockchain
-description: What is blockchain
+title: Blockchain
+description: What is a blockchain?
 keywords: blockchain
 
 # Micro navigation

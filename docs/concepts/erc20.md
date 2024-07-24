@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: intro concepts, ERC-20, tokens
+keywords: intro concepts, ERC-20, tokens, Ethereum ecosystem
 comments: false
 title: ERC-20
 description: ERC-20 is a standard interface for tokens
