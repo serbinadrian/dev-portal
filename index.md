@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: home
 hero:
   name: "Name"
@@ -44,4 +44,4 @@ features:
   #   details: MeTTa forms the ‘universal translator’ that enables a wide range of AI systems to dynamically collaborate by the creation of compatible Domain Specific Languages within one framework.
   # - title: OpenCog Hyperon
   #   details: MeTTa is the language of the cognitive architecture of OpenCog Hyperon. It functions as the firmware of the wildly variating components that Hyperon is made of and it is the glue that holds everything together.
----
+--- -->

@@ -154,13 +154,28 @@ header{
   --vp-nav-logo-height: 45px;
 }
 .dark header{
-  background: var(--vp-c-black);
+  background: var(--vp-c-black) !important;
 }
 .footer{
   background: var(--vp-c-black);
   --vp-c-text-1: rgb(255, 255, 255);
 }
 
+.VPNavBar{
+  background: var(--vp-c-purple) !important ;
+}
+
 .content-body{
-  background: var(--vp-c-purple) !important; 
+  background: var(--vp-c-purple) !important;
+}
+
+.dark .content-body{
+  background: var(--vp-c-black) !important;
+}
+
+.dark .VPLink{ 
+  color:#ffffff !important;
+}
+.VPNavScreenMenuLink{
+  color:#121212 !important;
 }

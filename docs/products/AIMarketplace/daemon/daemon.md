@@ -55,8 +55,8 @@ provided, and an easy-to-use API is available for other hooks.
 speed and ability. The daemon uses the [token bucket](https://en.wikipedia.org/wiki/Token_bucket) algorithm.
 * Heartbeat. A pull-based heartbeat service is provided, following the [gRPC health
 checking protocol](https://github.com/grpc/grpc/blob/master/doc/health-checking.md). The daemon will check that the heartbeat of the service is configured; this is used by monitoring services as well as the Marketplace DApp.
-
-The latest version is {{ data.versions.snet-daemon }}, and can be [downloaded from the release page](https://github.com/singnet/snet-daemon/releases).
+<!-- TODO: Global variable to read-->
+<!-- The latest version is {{ data.versions.snet-daemon }}, and can be [downloaded from the release page](https://github.com/singnet/snet-daemon/releases). -->
 
 ## Supported Service Types
 

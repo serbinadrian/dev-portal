@@ -1,4 +1,4 @@
----
+<!-- ---
 # Page settings
 layout: default
 keywords: intro concepts, Free Calls, pay
@@ -9,7 +9,7 @@ description: Daemon architecture
 # Micro navigation
 micro_nav: true
 
----
+--- -->
 
 ## State Service Calls 
 
@@ -22,12 +22,12 @@ Details involve Channel Id Nonce,Amount signed , Signature and the nonce of the 
 Daemon also sends back the last signed signature of the old nonce ( in case a claim is in progress or a claim was made)
 
 
-![Stateservice](/assets/img/daemon/stateservice.png)
+![Stateservice](/assets/images/products/AIMarketplace/daemon/stateservice.png)
 
 
 ## Pay Per use calls 
 The client signs in for the next cumulative amount ( i.e X+P), where X is the amount last amount signed on the given Channel Id and Nonce
-![Pay per use](/assets/img/daemon/payperusecalll.png)
+![Pay per use](/assets/images/products/AIMarketplace/daemon/payperusecalll.png)
 
 
 ## Free Calls
@@ -39,7 +39,7 @@ restrict the number of such free calls made.
 To even check if free calls are allowed, you need to send in Daemon
 a signature and a token 
 
-![Free Call use](/assets/img/daemon/freecallstate.png)
+![Free Call use](/assets/images/products/AIMarketplace/daemon/freecallstate.png)
 
 ### Making an Actual Free Call
 If the Signatures are valid,Daemon increments the usage count by 1.
@@ -65,7 +65,7 @@ As a first step the service provider needs to be aware of all the
 unclaimed money
 Service Provider needs to send the following message (using snet-cli/publisher portal):
 mpe_address, current_block_number, signature(“__list_unclaimed”, mpe_address, current_block_number)
-![List unclaimed](/assets/img/daemon/listUnclaimed.png)
+![List unclaimed](/assets/images/products/AIMarketplace/daemon/listUnclaimed.png)
 
 After receiving this message, daemon does the following:
 Verify that mpe_address is correct
@@ -90,7 +90,7 @@ Get the list of all claims that have been initiated but not completed yet
 Before sending a list of payments, daemon should remove all payments with nonce < blockchain nonce from payment storage (call finalize on them?). It means that daemon removes all payments which were claimed already. 
 
 
-![List in Progress](/assets/img/daemon/listInProgress.png)
+![List in Progress](/assets/images/products/AIMarketplace/daemon/listInProgress.png)
 
 ## Concurrent calls 
 

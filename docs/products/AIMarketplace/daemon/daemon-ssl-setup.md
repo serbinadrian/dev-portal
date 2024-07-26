@@ -1,4 +1,4 @@
----
+<!-- ---
 # Page settings
 layout: default
 keywords: Installing Certbot, Obtaining an SSL Certificate, Getting the certificate path, Mount certificate path, Schedule renewal of certificates
@@ -19,7 +19,7 @@ dev_news: true
 # Micro navigation
 micro_nav: true
        
----
+--- -->
 ## Introduction
 
 This section provides steps on securing your SingularityNet Daemon with Certbot from <a href="https://letsencrypt.org/" target="_blank">Let’s Encrypt</a>.
