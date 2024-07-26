@@ -1,4 +1,4 @@
 export default {
-    siteName: "Name",
+    siteName: "Developer Portal",
     siteDescription: "Description",
 };

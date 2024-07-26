@@ -44,6 +44,9 @@
  * -------------------------------------------------------------------------- */
 
  :root {
+  --vp-c-white: #ffffff;
+  --vp-c-black: #121212;
+  --vp-c-purple: #220D3A;
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -139,4 +142,25 @@
 
 * {
   scroll-behavior: smooth;
+}
+
+header{
+  background: var(--vp-c-purple);
+  --vp-c-text-1: rgb(255, 255, 255);
+}
+
+:root {
+  --vp-nav-height: 70px;
+  --vp-nav-logo-height: 45px;
+}
+.dark header{
+  background: var(--vp-c-black);
+}
+.footer{
+  background: var(--vp-c-black);
+  --vp-c-text-1: rgb(255, 255, 255);
+}
+
+.content-body{
+  background: var(--vp-c-purple) !important; 
 }
