@@ -17,12 +17,19 @@ hero:
     # - theme: alt
     #   text: Subscribe to Updates
     #   link: /docs/subscribe/subscribe
-     
+
 features:
   - title: Sample text
     details: Sample details. 
   # - title: Atomspace
   #   details: Each MeTTa program is represented as a subgraph of an Atomspace metagraph, and operates centrally by querying and rewriting portions of Atomspaces.
+
+  - title: Stacking
+    details: Sample details
+  - title: AI Platform Ecosystem
+    details: Sample details
+  - title: Publisher
+    details: Sample details
   # - title: Self-modification
   #   details: MeTTa handles highly abstract constructs like run-time self-modifying code simply and naturally. Programs are fully self-reflective – we can read/modify the code inside the programs.
   # - title: Gradual dependent types

@@ -1,3 +1,3 @@
 export default [
-    { text: "Home", link: "/docs/home/index" },
+    { text: "Docs", link: "docs/products/AIMarketplace/index" },
 ];
