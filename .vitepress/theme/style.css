@@ -73,6 +73,11 @@
   --vp-c-danger-soft: var(--vp-c-red-soft);
 }
 
+@font-face {
+  font-family: 'Mulish';
+  src: url(/assets/fonts/Mulish-ExtraLight.ttf);
+}
+
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */
@@ -146,9 +151,13 @@
   --vp-nav-logo-height: 45px;
 }
 
+header span {
+  font-size: 22px;
+  user-select: none;
+}
 
 .VPNavScreenMenuLink {
-  color: var(--vp-c-white) !important;
+  color: var(--vp-c-white);
 }
 
 
@@ -184,13 +193,42 @@
   color: var(--vp-c-white);
 }
 
-.VPContent.is-home{
+.VPContent.is-home {
   background-image: url(/assets/images/common/image21.png) !important;
-  background-position: center center;
-  background-attachment:scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+}
 
+.items {
+  margin-left: 15px;
+}
+
+.items h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.VPSidebarItem.level-2.is-link p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+img {
+  margin: auto;
+}
+
+.VPNavBarMenu.menu span {
+  font-size: 16px;
+}
+
+.VPNavScreenMenu.menu nav {
+  color: var(--vp-c-black);
+}
+
+/* footer on docs pages */
+/* footer.VPFooter {
+  display: block !important;
+ } */
+body {
+  font-family: Mulish;
 }

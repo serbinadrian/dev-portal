@@ -59,7 +59,7 @@ request format (gRPC, JSON-RPC or process);
 * A list of daemon endpoints, aggregated into one or more groups;
 * pricing information; and
 * an IPFS hash for the service API model.
-* Service metata is described in detail [here](/docs/products/AIMarketplace/coreconcepts/service).
+* Service metata is described in detail [here](/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/service).
 
 ### Type Repository
 A type repository is a Registry entry where a service developer lists service metadata, such as
