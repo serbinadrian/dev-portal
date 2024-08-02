@@ -1,36 +1,43 @@
 <template>
     <div class="navigation-card">
         <div class="image-container">
-            <img src="/assets/images/common/image 25.png" alt="market">
+            <img :src="item?.imageSrc" alt="market">
         </div>
         <div class="card-title">
             <div class="card-title-icon">
-
+                <SpriteIcon v-if="item.textIconID" :textIconID="item.textIconID" />
             </div>
             <div class="card-title-text">
-                <p>
-                    AI Platform Ecosystem
+                <p :title="item.text">
+                    {{ item?.text }}
                 </p>
             </div>
         </div>
         <div class="card-description">
-            Explore, publish, and integrate
-            AI services on AI Marketplace's docs.
+            <p>
+                {{ item?.description }}
+            </p>
         </div>
         <div class="card-tree">
-            <NavigationItem v-for="item in 5" />
+            <NavigationItems v-if="item?.items" v-for="navigationSectionContent in item?.items"
+                :item="navigationSectionContent" />
         </div>
     </div>
 </template>
 <script>
-import NavigationItem from './NavigationItem.vue';
+import NavigationItems from './NavigationItems.vue';
 export default {
     components: {
-        NavigationItem
+        NavigationItems
+    },
+    props: {
+        item: {
+            type: Object
+        }
     }
 }
 </script>
-<style>
+<style scoped>
 .navigation-card {
     box-sizing: border-box;
     padding: 25px;
@@ -39,6 +46,7 @@ export default {
     border-width: 1px;
     border-style: solid;
     border-color: var(--vp-c-lightgray);
+    border-radius: 4px;
 }
 
 .dark .navigation-card {
@@ -46,14 +54,50 @@ export default {
     border-color: var(--vp-c-gray);
 }
 
+.navigation-card .image-container {
+    margin-bottom: 10px;
+}
+
 .navigation-card p {
     padding: 0;
     margin: 0;
 }
 
+.navigation-card svg {
+    width: 16px;
+    height: 16px;
+}
+
 .navigation-card .card-title {
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+}
+
+.navigation-card .card-title-text {
+    overflow: hidden;
+}
+
+.navigation-card .card-title-text p {
+    font-size: 24px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.navigation-card .card-title-icon {
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+.navigation-card .card-description {
+    margin-bottom: 15px;
+}
+
+.navigation-card .card-description p {
+    font-size: 16px;
+    line-height: 24px;
 }
 </style>

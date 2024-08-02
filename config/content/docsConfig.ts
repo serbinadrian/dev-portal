@@ -2,7 +2,7 @@ export default [
     {
         text: "AI Platform Ecosystem",
         textIconID: "marketplace-icon",
-        imageSrc: "",
+        imageSrc: "/assets/images/common/platform.png",
         description:
             "Explore, publish, and integrate AI services on AI Marketplace's docs.",
         items: [
@@ -11,17 +11,12 @@ export default [
                 textIconID: "lightning-icon",
                 link: "/docs/products/AIMarketplace",
                 primary: true,
-                // no children
             },
             {
-                // no icon
-                // no section link
-                // not primary
                 text: "Core concepts",
                 link: "/docs/products/AIMarketplace/coreconcepts/keyterms",
                 items: [
                     {
-                        // no icon
                         text: "Marketplace-ecosystem",
                         link: "/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/marketplace",
                     },

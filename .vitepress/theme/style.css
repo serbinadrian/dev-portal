@@ -6,6 +6,8 @@
   --vp-c-darkgray: #242428;
   --vp-c-black: #121212;
   --vp-c-purple: #220D3A;
+  --vp-c-accent: #4086FF;
+
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -215,13 +217,15 @@ img {
   color: var(--vp-c-black);
 }
 
+body {
+  font-family: Mulish;
+}
+
+.VPNavBarMenu.menu span{
+  font-weight: 500 !important;
+}
+
 /* footer on docs pages */
 /* footer.VPFooter {
   display: block !important;
  } */
-body {
-  font-family: Mulish;
-}
-.VPNavBarMenu.menu span{
-  font-weight: 500 !important;
-}

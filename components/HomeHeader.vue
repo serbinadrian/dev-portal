@@ -16,11 +16,11 @@ export default {
 
 }
 </script>
-<style>
+<style scoped>
 .home-header-container h1,
 .home-header-container h2 {
-    margin: 0;
     padding: 0;
+    margin: 0;
     border: none;
     text-align: center;
 }
@@ -32,6 +32,7 @@ export default {
 }
 
 .home-header-container h2 {
+    margin-bottom: 5px;
     font-size: 24px;
     line-height: 34px;
 }
