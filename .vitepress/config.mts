@@ -9,6 +9,9 @@ export default defineConfig({
   themeConfig: {
     logo: '/assets/images/common/logo.svg',
     nav: navContent,
+    search: {
+      provider: 'local'
+    },
     sidebar: sidebarContent,
     footer: {
       message: 'Copyright © 2021 SingularityNET. All rights reserved.',

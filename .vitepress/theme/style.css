@@ -225,7 +225,11 @@ body {
   font-weight: 500 !important;
 }
 
-/* footer on docs pages */
-/* footer.VPFooter {
-  display: block !important;
- } */
+
+.vp-icon.DocSearch-Search-Icon{
+  color: var(--vp-c-white);
+}
+
+.content-body .container span{
+  background: white !important;
+}
