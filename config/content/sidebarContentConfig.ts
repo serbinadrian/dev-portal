@@ -28,28 +28,12 @@ export default [
       {
         text: "Core concepts",
         collapsed: true,
+        link:"/docs/products/AIMarketplace/coreconcepts/keyterms",
         items: [
-          {
-            text:"Smart contracts",
-            collapsed: true,
-            items:[
-              {
-                text: "Smart Contracts",
-                link: "/docs/products/AIMarketplace/coreconcepts/Smart-contracts/smart-contracts",
-              },
-              {
-                text: "MPE",
-                link: "/docs/products/AIMarketplace/coreconcepts/Smart-contracts/mpe",
-              },
-              {
-                text: "MPE Stateless Client",
-                link: "/docs/products/AIMarketplace/coreconcepts/Smart-contracts/mpe-stateless-client"
-              }
-            ]
-          },
           {
             text:"Marketplace ecosystem",
             collapsed: true,
+            link: "/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/marketplace",
             items:[
               {
                 text: "Service",
@@ -58,14 +42,6 @@ export default [
               {
                 text: "Explanation of Daemon",
                 link: "/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/daemon",
-              },
-              {
-                text: "Marketplace",
-                link: "/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/marketplace",
-              },
-              {
-                text: "Getting started",
-                link: "/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/getting-started",
               },
               {
                 text: "Marketplace service invocation",
@@ -77,6 +53,22 @@ export default [
               },
             ]
           },
+          {
+            text:"Smart contracts",
+            collapsed: true,
+            link: "/docs/products/AIMarketplace/coreconcepts/Smart-contracts/smart-contracts",
+            items:[
+              {
+                text: "MPE",
+                link: "/docs/products/AIMarketplace/coreconcepts/Smart-contracts/mpe",
+              },
+              {
+                text: "MPE Stateless Client",
+                link: "/docs/products/AIMarketplace/coreconcepts/Smart-contracts/mpe-stateless-client"
+              }
+            ]
+          },
+          
           {
             text: "ERC20",
             link: "/docs/products/AIMarketplace/coreconcepts/erc20",
@@ -110,11 +102,8 @@ export default [
       {
         text: "Daemon",
         collapsed: true,
+        link: "/docs/products/AIMarketplace/daemon/daemon-api",
         items: [
-          {
-            text: "Daemon API",
-            link: "/docs/products/AIMarketplace/daemon/daemon-api",
-          },
           {
             text: "Daemon architecture",
             link: "/docs/products/AIMarketplace/daemon/daemon-architecture",
@@ -219,11 +208,8 @@ export default [
           {
             text:"CLI",
             collapsed: true,
+            link: "/docs/products/AIMarketplace/tools/CLI/snet-cli",
             items: [
-              {
-                text: "SNET-CLI",
-                link: "/docs/products/AIMarketplace/tools/CLI/snet-cli",
-              },
               {
                 text: "Organization setup via CLI",
                 link: "/docs/products/AIMarketplace/tools/CLI/organization-setup-sent-cli",
@@ -237,11 +223,8 @@ export default [
           {
             text: "SDK",
             collapsed: true,
+            link: "/docs/products/AIMarketplace/tools/SDK/concepts-sdk",
             items:[
-            {
-              text: "Concepts of SDK",
-              link: "/docs/products/AIMarketplace/tools/SDK/concepts-sdk"
-            },
             {
               text: "Architecture of SDK",
               link: "/docs/products/AIMarketplace/tools/SDK/sdk-architecture",
@@ -253,17 +236,18 @@ export default [
             ]
           }
         ]
+      },
+      {
+        text:"Publisher",
+        link:"/docs/products/AIMarketplace/publisher/publisher-portal",
       }
     ],
   },
   {
     text: "Staking",
     collapsed: true,
+    link:"/docs/products/Staking/staking",
     items:[
-      {
-        text:"Staking",
-        link:"/docs/products/Staking/staking"
-      },
       {
         text:"Stake window",
         link:"/docs/products/Staking/stake-window"

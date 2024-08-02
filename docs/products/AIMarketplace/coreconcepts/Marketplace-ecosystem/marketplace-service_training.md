@@ -102,4 +102,4 @@ An AI consumer can always call back this method to determine the list of models 
 
 # Complete process video
 
-![marketplace](/assets/images/products/AIMarketplace/core-concepts/marketplace_training_models_samplevideo.mp4)
+<Video src="/assets/images/products/AIMarketplace/core-concepts/marketplace_training_models_samplevideo.mp4"/>

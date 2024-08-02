@@ -1,11 +1,52 @@
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+/**
+ * Colors
+ *
+ * Each colors have exact same color scale system with 3 levels of solid
+ * colors with different brightness, and 1 soft color.
+ * 
+ * - `XXX-1`: The most solid color used mainly for colored text. It must
+ *   satisfy the contrast ratio against when used on top of `XXX-soft`.
+ *
+ * - `XXX-2`: The color used mainly for hover state of the button.
+ *
+ * - `XXX-3`: The color for solid background, such as bg color of the button.
+ *   It must satisfy the contrast ratio with pure white (#ffffff) text on
+ *   top of it.
+ *
+ * - `XXX-soft`: The color used for subtle background such as custom container
+ *   or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
+ *   on top of it.
+ *
+ *   The soft color must be semi transparent alpha channel. This is crucial
+ *   because it allows adding multiple "soft" colors on top of each other
+ *   to create a accent, such as when having inline code block inside
+ *   custom containers.
+ *
+ * - `default`: The color used purely for subtle indication without any
+ *   special meanings attched to it such as bg color for menu hover state.
+ *
+ * - `brand`: Used for primary brand colors, such as link text, button with
+ *   brand theme, etc.
+ *
+ * - `tip`: Used to indicate useful information. The default theme uses the
+ *   brand color for this by default.
+ *
+ * - `warning`: Used to indicate warning to the users. Used in custom
+ *   container, badges, etc.
+ *
+ * - `danger`: Used to show error, or dangerous message to the users. Used
+ *   in custom container, badges, etc.
+ * -------------------------------------------------------------------------- */
+
 :root {
   --vp-c-white: #ffffff;
-  --vp-c-lightgray: #d3cfcf;
-  --vp-c-gray: #3C3C43;
-  --vp-c-darkgray: #242428;
   --vp-c-black: #121212;
   --vp-c-purple: #220D3A;
-
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -34,16 +75,35 @@
 
 @font-face {
   font-family: 'Mulish';
-  src: url(/assets/fonts/Mulish-Black.ttf);
-}
-@font-face {
-  font-family: 'Mulish-Light';
   src: url(/assets/fonts/Mulish-Light.ttf);
+  font-weight: 400;
+  font-style: normal; 
+}
+@font-face{
+  font-family: "Mulish";
+  src: url(/assets/fonts/Mulish-Regular.ttf);
+  font-weight: 500;
+  font-style: normal; 
+}
+@font-face{
+  font-family: "Mulish";
+  src: url(/assets/fonts/Mulish-Medium.ttf);
+  font-weight: 600;
+  font-style: normal; 
 }
 @font-face {
-  font-family: 'Mulish-Bold';
+  font-family: 'Mulish';
   src: url(/assets/fonts/Mulish-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; 
 }
+@font-face {
+  font-family: 'Mulish';
+  src: url(/assets/fonts/Mulish-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal; 
+}
+
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */
@@ -109,8 +169,8 @@
 
 * {
   scroll-behavior: smooth;
-  font-weight: bold;
 }
+
 
 :root {
   --vp-nav-height: 70px;
@@ -191,17 +251,13 @@ img {
   color: var(--vp-c-black);
 }
 
-.vp-doc.container {
-  padding: 0 32px;
-  max-width: calc(var(--vp-layout-max-width) - 64px)
-}
-
 /* footer on docs pages */
 /* footer.VPFooter {
   display: block !important;
  } */
-
 body {
-  font-family: Mulish-Light;
-  
+  font-family: Mulish;
+}
+.VPNavBarMenu.menu span{
+  font-weight: 500 !important;
 }
