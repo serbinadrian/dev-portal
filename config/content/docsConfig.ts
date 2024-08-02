@@ -177,4 +177,66 @@ export default [
             }
         ],
     },
+    {
+        text: "Staking",
+        textIconID: "staking-icon",
+        imageSrc: "/assets/images/common/staking.png",
+        description:
+            "funny pig",
+        items:[
+            {
+                text:"Stake window",
+                link:"/docs/products/Staking/stake-window"
+              },
+              {
+                text:"Stake timeline",
+                link:"/docs/products/Staking/stake-timeline"
+              },
+              {
+                text:"Stake reward",
+                link:"/docs/products/Staking/stake-reward"
+              },
+              {
+                text:"Stake opt out",
+                link:"/docs/products/Staking/stake-opt-out"
+              },
+              {
+                text:"Cardano Staking withdraw",
+                link:"/docs/products/Staking/cardano-staking-withdraw"
+              },
+              {
+                text:"Cardano Staking Timeline",
+                link:"/docs/products/Staking/cardano-staking-timeline"
+              },
+              {
+                text:"Cardano Staking Rewards",
+                link:"/docs/products/Staking/cardano-staking-rewards"
+              }
+        ]
+    },
+    {
+        text: "about technologies",
+        textIconID: "marketplace-icon",
+        imageSrc: "/assets/images/common/techs.png",
+        description:
+            "Some technologies that we use",
+        items:[
+            {
+                text: "Blockchain",
+                link: "/docs/products/About-technologies/blockchain",
+              },
+              {
+                text: "Ethereum",
+                link: "/docs/products/About-technologies/ethereum",
+              },
+              {
+                text: "Concepts of organization",
+                link: "/docs/products/About-technologies/concepts-organization",
+              },
+              {
+                text: "Introduction in SDK",
+                link: "/docs/products/About-technologies/sdk",
+              },
+        ]
+    }
 ];

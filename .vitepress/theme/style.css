@@ -1,4 +1,3 @@
-
 :root {
   --vp-c-white: #ffffff;
   --vp-c-lightgray: #d3cfcf;
@@ -38,31 +37,35 @@
   font-family: 'Mulish';
   src: url(/assets/fonts/Mulish-Light.ttf);
   font-weight: 400;
-  font-style: normal; 
+  font-style: normal;
 }
-@font-face{
+
+@font-face {
   font-family: "Mulish";
   src: url(/assets/fonts/Mulish-Regular.ttf);
   font-weight: 500;
-  font-style: normal; 
+  font-style: normal;
 }
-@font-face{
+
+@font-face {
   font-family: "Mulish";
   src: url(/assets/fonts/Mulish-Medium.ttf);
   font-weight: 600;
-  font-style: normal; 
+  font-style: normal;
 }
+
 @font-face {
   font-family: 'Mulish';
   src: url(/assets/fonts/Mulish-Bold.ttf);
   font-weight: 700;
-  font-style: normal; 
+  font-style: normal;
 }
+
 @font-face {
   font-family: 'Mulish';
   src: url(/assets/fonts/Mulish-ExtraBold.ttf);
   font-weight: 800;
-  font-style: normal; 
+  font-style: normal;
 }
 
 /**
@@ -221,11 +224,32 @@ body {
   font-family: Mulish;
 }
 
-.VPNavBarMenu.menu span{
+.VPNavBarMenu.menu span {
   font-weight: 500 !important;
 }
 
-/* footer on docs pages */
-/* footer.VPFooter {
-  display: block !important;
- } */
+.vp-icon.DocSearch-Search-Icon {
+  color: var(--vp-c-white);
+}
+
+.content-body .container span {
+  background: white !important;
+}
+
+.VPNavBarSearch {
+  display:flex;
+  align-items: center;
+
+}
+
+.VPNav .container {
+  justify-content: right;
+}
+
+.VPNavBar.has-sidebar .title{
+  position:unset !important;
+}
+
+.DocSearch-Button-Keys{
+  display: none !important;
+}
