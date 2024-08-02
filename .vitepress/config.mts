@@ -8,7 +8,7 @@ export default defineConfig({
   
   description: generalConfig.siteDescription,
   themeConfig: {
-    logo: './assets/images/common/logo.svg',
+    logo: '/assets/images/common/logo.svg',
     nav: navContent,
     sidebar: sidebarContent,
     footer: {

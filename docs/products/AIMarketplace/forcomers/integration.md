@@ -24,7 +24,7 @@ micro_nav: true -->
 [singnet-home]: https://www.singularitynet.io
 [singnet-github]: https://github.com/singnet
 [dnn-github]: https://github.com/singnet/dnn-model-services
-[contribution-guidelines]: /docs/guidelines
+[contribution-guidelines]: /docs/products/AIMarketplace/forcomers
 [docs-templates]: templates
 [cpp-tutorial]: /tutorials/cpp
 [java-tutorial]: /tutorials/java
@@ -32,7 +32,7 @@ micro_nav: true -->
 [python-tutorial]: /tutorials/python
 [opencog-tutorial]: /docs/products/AIMarketplace/forcomers/opencog
 [service-tutorial]: /docs/products/AIMarketplace/forcomers/publish
-[naming-standards]: /docs/concepts/naming-standards
+[naming-standards]: /docs/products/AIMarketplace/forcomers/naming-standards
 [grpc]: https://grpc.io/
 [grpc-docs]: https://grpc.io/docs/
 [opencog]: https://opencog.org/

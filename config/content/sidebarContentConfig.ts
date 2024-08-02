@@ -1,5 +1,27 @@
 export default [
   {
+    text: "About technologies",
+    collapsed: true,
+    items: [
+      {
+        text: "Blockchain",
+        link: "/docs/products/About-technologies/blockchain",
+      },
+      {
+        text: "Ethereum",
+        link: "/docs/products/About-technologies/ethereum",
+      },
+      {
+        text: "Concepts of organization",
+        link: "/docs/products/About-technologies/concepts-organization",
+      },
+      {
+        text: "Introduction in SDK",
+        link: "/docs/products/About-technologies/sdk",
+      },
+    ]
+  },
+  {
     text: "AI Marketplace",
     collapsed: false,
     items: [
@@ -8,20 +30,60 @@ export default [
         collapsed: true,
         items: [
           {
+            text:"Smart contracts",
+            collapsed: true,
+            items:[
+              {
+                text: "Smart Contracts",
+                link: "/docs/products/AIMarketplace/coreconcepts/Smart-contracts/smart-contracts",
+              },
+              {
+                text: "MPE",
+                link: "/docs/products/AIMarketplace/coreconcepts/Smart-contracts/mpe",
+              },
+              {
+                text: "MPE Stateless Client",
+                link: "/docs/products/AIMarketplace/coreconcepts/Smart-contracts/mpe-stateless-client"
+              }
+            ]
+          },
+          {
+            text:"Marketplace ecosystem",
+            collapsed: true,
+            items:[
+              {
+                text: "Service",
+                link: "/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/service",
+              },
+              {
+                text: "Explanation of Daemon",
+                link: "/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/daemon",
+              },
+              {
+                text: "Marketplace",
+                link: "/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/marketplace",
+              },
+              {
+                text: "Getting started",
+                link: "/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/getting-started",
+              },
+              {
+                text: "Marketplace service invocation",
+                link: "/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/marketplace-service_invocation",
+              },
+              {
+                text: "Marketplace service training",
+                link: "/docs/products/AIMarketplace/coreconcepts/Marketplace-ecosystem/marketplace-service_training",
+              },
+            ]
+          },
+          {
             text: "ERC20",
             link: "/docs/products/AIMarketplace/coreconcepts/erc20",
           },
           {
-            text: "Blockchain",
-            link: "/docs/products/AIMarketplace/coreconcepts/blockchain",
-          },
-          {
             text: "ETCD",
             link: "/docs/products/AIMarketplace/coreconcepts/etcd",
-          },
-          {
-            text: "Ethereum",
-            link: "/docs/products/AIMarketplace/coreconcepts/ethereum",
           },
           {
             text: "Ethereum Address",
@@ -40,24 +102,8 @@ export default [
             link: "/docs/products/AIMarketplace/coreconcepts/protobuf",
           },
           {
-            text: "Smart Contracts",
-            link: "/docs/products/AIMarketplace/coreconcepts/smart-contracts",
-          },
-          {
-            text: "Concepts of organization",
-            link: "/docs/products/AIMarketplace/coreconcepts/concepts-organization",
-          },
-          {
             text: "ETCD Setup",
             link: "/docs/products/AIMarketplace/coreconcepts/etcdsetup",
-          },
-          {
-            text: "MPE",
-            link: "/docs/products/AIMarketplace/coreconcepts/mpe",
-          },
-          {
-            text: "Service",
-            link: "/docs/products/AIMarketplace/coreconcepts/service",
           },
         ],
       },
@@ -65,10 +111,6 @@ export default [
         text: "Daemon",
         collapsed: true,
         items: [
-          {
-            text: "Explanation of Daemon",
-            link: "/docs/products/AIMarketplace/daemon/daemon",
-          },
           {
             text: "Daemon API",
             link: "/docs/products/AIMarketplace/daemon/daemon-api",
@@ -97,10 +139,6 @@ export default [
         link: "/docs/products/AIMarketplace/forcomers",
         items: [
           {
-            text: "Getting started",
-            link: "/docs/products/AIMarketplace/forcomers/getting-started",
-          },
-          {
             text: "Call a service",
             link: "/docs/products/AIMarketplace/forcomers/call-a-service",
           },
@@ -110,11 +148,7 @@ export default [
           },
           {
             text: "Local Singularity",
-            link: "/docs/products/AIMarketplace/forcomers/local-singularity",
-          },
-          {
-            text: "Marketplace",
-            link: "/docs/products/AIMarketplace/forcomers/marketplace",
+            link: "/docs/products/AIMarketplace/forcomers/local-singularitynet",
           },
           {
             text: "MetaMask",
@@ -152,6 +186,30 @@ export default [
             text: "Wallet",
             link: "/docs/products/AIMarketplace/forcomers/wallet",
           },
+          {
+            text: "Claim",
+            link: "/docs/products/AIMarketplace/forcomers/claim",
+          },
+          {
+            text: "PayPal",
+            link: "/docs/products/AIMarketplace/forcomers/paypal",
+          },
+          {
+            text: "Guide for testnet",
+            link: "/docs/products/AIMarketplace/forcomers/snet-full-guide-testnet",
+          },
+          {
+            text: "Guide for mainnet",
+            link: "/docs/products/AIMarketplace/forcomers/snet-full-guide-mainnet",
+          },
+          {
+            text: "FAQ",
+            link: "/docs/products/AIMarketplace/forcomers/faq",
+          },
+          {
+            text: "Troubleshooting",
+            link: "/docs/products/AIMarketplace/forcomers/troubleshooting",
+          },
         ],
       },
       {
@@ -181,10 +239,6 @@ export default [
             collapsed: true,
             items:[
             {
-              text: "Introduction in SDK",
-              link: "/docs/products/AIMarketplace/tools/SDK/sdk",
-            },
-            {
               text: "Concepts of SDK",
               link: "/docs/products/AIMarketplace/tools/SDK/concepts-sdk"
             },
@@ -204,5 +258,40 @@ export default [
   },
   {
     text: "Staking",
-  },
+    collapsed: true,
+    items:[
+      {
+        text:"Staking",
+        link:"/docs/products/Staking/staking"
+      },
+      {
+        text:"Stake window",
+        link:"/docs/products/Staking/stake-window"
+      },
+      {
+        text:"Stake timeline",
+        link:"/docs/products/Staking/stake-timeline"
+      },
+      {
+        text:"Stake reward",
+        link:"/docs/products/Staking/stake-reward"
+      },
+      {
+        text:"Stake opt out",
+        link:"/docs/products/Staking/stake-opt-out"
+      },
+      {
+        text:"Cardano Staking withdraw",
+        link:"/docs/products/Staking/cardano-staking-withdraw"
+      },
+      {
+        text:"Cardano Staking Timeline",
+        link:"/docs/products/Staking/cardano-staking-timeline"
+      },
+      {
+        text:"Cardano Staking Rewards",
+        link:"/docs/products/Staking/cardano-staking-rewards"
+      }
+    ]
+  }
 ];
