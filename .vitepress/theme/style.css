@@ -1,3 +1,4 @@
+
 :root {
   --vp-c-white: #ffffff;
   --vp-c-lightgray: #d3cfcf;
@@ -5,7 +6,6 @@
   --vp-c-darkgray: #242428;
   --vp-c-black: #121212;
   --vp-c-purple: #220D3A;
-
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -34,7 +34,33 @@
 
 @font-face {
   font-family: 'Mulish';
-  src: url(/assets/fonts/Mulish-ExtraLight.ttf);
+  src: url(/assets/fonts/Mulish-Light.ttf);
+  font-weight: 400;
+  font-style: normal; 
+}
+@font-face{
+  font-family: "Mulish";
+  src: url(/assets/fonts/Mulish-Regular.ttf);
+  font-weight: 500;
+  font-style: normal; 
+}
+@font-face{
+  font-family: "Mulish";
+  src: url(/assets/fonts/Mulish-Medium.ttf);
+  font-weight: 600;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'Mulish';
+  src: url(/assets/fonts/Mulish-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'Mulish';
+  src: url(/assets/fonts/Mulish-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal; 
 }
 
 /**
@@ -102,8 +128,8 @@
 
 * {
   scroll-behavior: smooth;
-  font-weight: bold;
 }
+
 
 :root {
   --vp-nav-height: 70px;
@@ -117,6 +143,11 @@ header span {
 
 .VPNavScreenMenuLink {
   color: var(--vp-c-white);
+}
+
+.vp-doc.container {
+  padding: 0 32px;
+  max-width: calc(var(--vp-layout-max-width) - 64px)
 }
 
 
@@ -153,7 +184,7 @@ header span {
 }
 
 .VPContent.is-home {
-  background-image: url(/assets/images/common/image21.png) !important;
+  background-image: url(/assets/images/common/background_home.png) !important;
 }
 
 .items {
@@ -184,16 +215,13 @@ img {
   color: var(--vp-c-black);
 }
 
-.vp-doc.container {
-  padding: 0 32px;
-  max-width: calc(var(--vp-layout-max-width) - 64px)
-}
-
 /* footer on docs pages */
 /* footer.VPFooter {
   display: block !important;
  } */
-
 body {
   font-family: Mulish;
+}
+.VPNavBarMenu.menu span{
+  font-weight: 500 !important;
 }

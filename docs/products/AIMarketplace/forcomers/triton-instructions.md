@@ -1,4 +1,4 @@
----
+<!-- ---
 # Page settings
 layout: default
 keywords: triton onboarding, Guideline, python
@@ -7,14 +7,14 @@ title: Integrating Triton-based Service
 description: Guideline for deploying service with examples of code
 
 # Micro navigation
-micro_nav: true
+micro_nav: true -->
 ---
 
 # Deploying triton-based service to the SNET platform
 This document provides all necessary information on how to deploy your AI service using Triton Inference Server and publish it to the SingularityNET platform.
 
 This is a general instruction, if you want to see ready-to-deploy service - you can referense [this repository](https://github.com/singnet/Hate-Speech-Triton)
-
+<!-- TODO: does not clicking on links -->
 ## Guideline for deploying service
 The guide will consist of the following steps:
 1. [Converting model to onnx format](#convert)
