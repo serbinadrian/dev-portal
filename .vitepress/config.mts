@@ -11,7 +11,7 @@ export default defineConfig({
     nav: navContent,
     sidebar: sidebarContent,
     footer: {
-      message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
-      copyright: 'Copyright © 2019-present <a href="https://github.com/yyx990803">Evan You</a>'},
+      message: 'Copyright © 2021 SingularityNET. All rights reserved.',
+      copyright: 'Stichting SingularityNET Barbara Strozzilaan 362 1083 HN Amsterdam The Netherlands'},
     }
   })
