@@ -34,9 +34,16 @@
 
 @font-face {
   font-family: 'Mulish';
-  src: url(/assets/fonts/Mulish-ExtraLight.ttf);
+  src: url(/assets/fonts/Mulish-Black.ttf);
 }
-
+@font-face {
+  font-family: 'Mulish-Light';
+  src: url(/assets/fonts/Mulish-Light.ttf);
+}
+@font-face {
+  font-family: 'Mulish-Bold';
+  src: url(/assets/fonts/Mulish-Bold.ttf);
+}
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */
@@ -153,7 +160,7 @@ header span {
 }
 
 .VPContent.is-home {
-  background-image: url(/assets/images/common/image21.png) !important;
+  background-image: url(/assets/images/common/background_home.png) !important;
 }
 
 .items {
@@ -195,5 +202,6 @@ img {
  } */
 
 body {
-  font-family: Mulish;
+  font-family: Mulish-Light;
+  
 }

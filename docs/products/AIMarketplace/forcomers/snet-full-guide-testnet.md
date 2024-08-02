@@ -9,6 +9,7 @@ description: Step-by-step guideline to testnet onboarding
 # Micro navigation
 micro_nav: true -->
 ---
+<!-- TODO: [plugin:vite:vue] Element is missing end tag. -->
 
 ### ETCD setup (Skip this step if you want to use internal ETCD. How to enable Internal ETCD)
 

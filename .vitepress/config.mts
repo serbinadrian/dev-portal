@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 import generalConfig from '../config/content/generalConfig';
 import navContent from '../config/content/navContentConfig';
 import sidebarContent from '../config/content/sidebarContentConfig';
+import docsContent from '../config/content/docsConfig';
 
 export default defineConfig({
   title: generalConfig.siteName,
@@ -9,6 +10,7 @@ export default defineConfig({
   description: generalConfig.siteDescription,
   themeConfig: {
     logo: '/assets/images/common/logo.svg',
+    docs:docsContent,
     nav: navContent,
     sidebar: sidebarContent,
     footer: {
