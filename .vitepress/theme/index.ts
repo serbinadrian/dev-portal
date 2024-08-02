@@ -1,3 +1,6 @@
+import Home from "../../components/Home.vue";
+import Video from "../../components/Video.vue";
+import SpriteIcon from "../../components/SpriteIcon.vue";
 import DefaultTheme from "vitepress/theme";
 import type { Theme } from "vitepress";
 import { h } from "vue";
@@ -8,5 +11,9 @@ export default {
     Layout: () => {
         return h(DefaultTheme.Layout, null, {});
     },
-    enhanceApp({ app, router, siteData }) {},
+    enhanceApp({ app, router, siteData }) {
+        app.component("Home", Home);
+        app.component("Video", Video);
+        app.component("SpriteIcon", SpriteIcon);
+    },
 } satisfies Theme;
